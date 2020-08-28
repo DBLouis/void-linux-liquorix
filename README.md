@@ -11,7 +11,7 @@ Void packages [repository](https://github.com/DBLouis/void-packages) (fork)
 First clone the `void-packages` fork repository and install bootstrap packages.
 
 ```
-git clone --recurse-submodules https://github.com/DBLouis/void-packages.git
+git clone --branch liquorix https://github.com/DBLouis/void-packages.git
 cd void-packages
 ./xbps-src binary-bootstrap
 ```
