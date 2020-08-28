@@ -6,6 +6,16 @@ Liquorix [repository](https://github.com/damentz/liquorix-package)
 
 Void packages [repository](https://github.com/DBLouis/void-packages) (fork)
 
+## How to use this repository
+
+Add the following line in your XBPS configuration (e.g. `/etc/xbps.d/10-liquorix.conf`).
+
+```
+repository=https://dblouis.github.io/void-linux-liquorix/<arch>
+```
+
+Where `<arch>` is your CPU architecture (put `generic` if your are not sure).
+
 ## How to build *linux-lqx\** packages
 
 First clone the `void-packages` fork repository and install bootstrap packages.
