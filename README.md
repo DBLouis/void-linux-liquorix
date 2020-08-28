@@ -16,6 +16,15 @@ cd void-packages
 ./xbps-src binary-bootstrap
 ```
 
+Optionally edit the kernel configuration.
+
+```
+./xbps-src configure linux-lqx
+./xbps-src chroot
+cd builddir/linux-*
+make nconfig
+```
+
 Then run the build.
 
 ```
